@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Centered Box</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: black;
+      font-size: 20px;
+    }
+
+    .center-box {
+      width: 500px;
+      height: 600px;
+      background-color: #3498db;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      animation: bounce 1s ease-in-out infinite alternate;
+    }
+
+    @keyframes bounce {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(-10px);
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="center-box">
+  <i><h2>About us</h2>
+  <p>Welcome to <mark>Valuabletrash</mark>, Your Trusted Partner in Food Waste Management!
+
+At valuabletrash,we are  response to the pressing global issue of food waste. The founders, passionate about sustainability and environmental responsibility, envisioned a solution that goes beyond traditional waste management. What began as an idea has evolved into a dynamic platform that harnesses innovation to address the challenges of food waste head-on.<br><br>
+
+<b>Our Mission</b><br>
+our mission is clear: to create a sustainable future by leading the charge against food waste. We envision a world where every resource is used efficiently, and no edible food goes to waste. Our commitment is not just a goal; it's a responsibility to the planet and future generations..<br><br>
+<b>Team menber</b><br>Sachin Burnwal&nbsp&nbsp&nbsp&nbsp&nbsp12309834<br>Sneha Singh&nbsp&nbsp&nbsp&nbsp&nbsp12310058<br>Girish Kumar&nbsp&nbsp&nbsp&nbsp&nbsp12309921</p></i><br>
+<a href="index.html">Back to home page</a>
+</div>
+
+</body>
+</html>
